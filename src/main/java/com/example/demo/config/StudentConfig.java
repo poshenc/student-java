@@ -8,7 +8,9 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 import com.example.demo.entity.Student;
+import com.example.demo.entity.User;
 import com.example.demo.repository.StudentRepository;
+import com.example.demo.repository.UserRepository;
 
 @Configuration
 public class StudentConfig {
